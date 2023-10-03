@@ -4,10 +4,13 @@
 
 This program is fully functional, but it is still under development. The code will be restructured to be more modular, and comments and variables will be written in English rather than German in future updates. While the program works as intended, please be aware that there may be ongoing improvements and changes.
 
-
 ## Description
 
 This repository contains a Python program that utilizes OpenCV to perform real-time motion detection using your webcam. It highlights and displays motion and also records video when motion is detected. You can set up motion detection with your webcam for security monitoring, creative projects, or any other application.
+
+![Motion Detection Example](motion_detection_example.png)
+
+*Example: Moved left hand, right hand stationary. Detected and highlighted motion on the left hand and its shadow on the right forearm*
 
 ## Features
 
