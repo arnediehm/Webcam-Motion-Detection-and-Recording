@@ -1,5 +1,10 @@
 # Webcam Motion Detection and Recording
 
+**Disclaimer:**
+
+This program is fully functional, but it is still under development. The code will be restructured to be more modular, and comments and variables will be written in English rather than German in future updates. While the program works as intended, please be aware that there may be ongoing improvements and changes.
+
+
 ## Description
 
 This repository contains a Python program that utilizes OpenCV to perform real-time motion detection using your webcam. It highlights and displays motion and also records video when motion is detected. You can set up motion detection with your webcam for security monitoring, creative projects, or any other application.
@@ -88,6 +93,8 @@ Now that you have Python and pip installed, follow these steps to install and ru
 - The program will open a window displaying your webcam feed with motion detection and recording capabilities.
 - Press 'q' or 'ESC' to exit the program.
 
+Please be aware that if the program is unexpectedly or improperly terminated during recording, it may result in video file corruption. To prevent any potential issues caused by abrupt terminations, it's advisable to exit the program by pressing 'q' or 'ESC'.
+
 ## Configuration Options
 
 The code is highly configurable, allowing you to adapt it to your specific needs:
@@ -140,7 +147,7 @@ preferred_containers = ['MKV', 'MP4', 'AVI', 'MOV']
 
 ### Customizing Codecs and File Extensions
 
-While i have implemented X264 (MKV) and MP4V (MP4) as preferred options, you can choose any codec and container combination that suits your needs and is provided by OpenCV.
+While I have implemented X264 (MKV) and MP4V (MP4) as preferred options, you can choose any codec and container combination that suits your needs and is provided by OpenCV.
 
 
 - **X264 (MKV):** This codec is chosen as the default option for its reliability. MKV files have a structure that can withstand unexpected program interruptions, ensuring your video files remain usable.
