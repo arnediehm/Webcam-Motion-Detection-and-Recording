@@ -6,7 +6,7 @@ This program is fully functional, but it is still under development. The code wi
 
 ## Description
 
-This repository contains a Python program that utilizes OpenCV to perform real-time motion detection using your webcam. It highlights and displays motion and also records video when motion is detected. You can set up motion detection with your webcam for security monitoring, creative projects, or any other application.
+This repository contains a Python program that utilizes [OpenCV](https://github.com/opencv/opencv) to perform real-time motion detection using your webcam. It highlights and displays motion and also records video when motion is detected. You can set up motion detection with your webcam for security monitoring, creative projects, or any other application.
 
 ![Motion Detection Example](motion_detection_example.png)
 
@@ -26,7 +26,11 @@ This repository contains a Python program that utilizes OpenCV to perform real-t
 
 Before you can use this program, you need to have Python and pip (Python package manager) installed on your system. Here's how to install them on Windows, Linux, and macOS:
 
-### Windows
+
+#### Windows 
+
+<details closed>
+<summary>Details</summary>
 
 1. **Python Installation:**
    - Visit the [Python Downloads](https://www.python.org/downloads/) page.
@@ -44,38 +48,54 @@ Before you can use this program, you need to have Python and pip (Python package
    - If the command runs successfully and shows the `pip` version, it means that `pip` is already installed and ready to use.
 
    **Note:** `pip` is typically installed automatically along with Python when using the standard installation.
+   
+</details>
+
 
 #### Linux (Ubuntu/Debian)
 
+<details closed>
+<summary>Details</summary>
+
+
 1. **Python Installation:**
    - Open Terminal.
-   - Run the following command to install Python 3:
+   - Install the python 3 Package e.g.:
      ```
      sudo apt-get update
      sudo apt-get install python3
      ```
 
 2. **Pip Installation:**
-   - Run the following command to install pip for Python 3:
+   - Install the python3-pip package e.g.:
      ```
      sudo apt-get install python3-pip
      ```
+     
+</details>
+
 
 #### macOS
 
-1. **Python Installation:**
-   - Open Terminal.
-   - Install Homebrew (if not already installed) by following the instructions on the [Homebrew website](https://brew.sh/).
-   - Run the following command to install Python 3:
-     ```
-     brew install python3
-     ```
+   <details closed>
+<summary>Details</summary>
 
-2. **Pip Installation:**
-   - Run the following command to install pip for Python 3:
+1. **Python Installation:**
+   - Visit the [Python Downloads](https://www.python.org/downloads/) page.
+   - Download the latest Python installer for macOS.
+   - Run the installer
+
+2. **Check if `pip` is correctly installed:**
+   - Open Command Prompt (CMD).
+   - Execute the following command to display the `pip` version:
      ```
-     sudo easy_install pip
+     pip --version
      ```
+   - If the command runs successfully and shows the `pip` version, it means that `pip` is already installed and ready to use.
+
+   **Note:** `pip` is typically installed automatically along with Python when using the standard installation.
+
+</details>
 
 ### Program Installation
 
@@ -180,6 +200,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-Special thanks to the open-source community and the contributors of OpenCV for making this project possible.
+Special thanks to the open-source community and the [contributors](https://github.com/opencv/opencv/graphs/contributors) of [OpenCV](https://github.com/opencv/opencv/) for making this project possible.
 
 Happy motion detection and recording with your webcam!
