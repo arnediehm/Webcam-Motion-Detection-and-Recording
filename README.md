@@ -122,11 +122,11 @@ Please be aware that if the program is unexpectedly or improperly terminated dur
 
 The code is highly configurable, allowing you to adapt it to your specific needs:
 
-- **Sensitivity**: You can adjust the sensitivity of motion detection by modifying the `sensitivitaet` variable in the code. A higher value makes the detection less sensitive, while a lower value makes it more sensitive.
+- **Sensitivity**: You can adjust the sensitivity of motion detection by modifying the `sensitivity` variable in the code. A higher value makes the detection less sensitive, while a lower value makes it more sensitive.
 
-- **Recording Duration**: Set the `aufnahme_dauer` variable to determine the duration of video recording after motion detection.
+- **Recording Duration**: Set the `recording_duration` variable to determine the duration of video recording after motion detection.
 
-- **Recording Folder**: You can change the folder where recordings are saved by modifying the `aufnahme_ordner` variable.
+- **Recording Folder**: You can change the folder where recordings are saved by modifying the `output_folder` variable.
 
 - **Background Subtraction Algorithm**: The code includes two options for the background subtraction algorithm. You can choose between `cv2.createBackgroundSubtractorMOG2()` and `cv2.createBackgroundSubtractorKNN()`. The former provides more accurate results, while the latter may improve program performance.
 
