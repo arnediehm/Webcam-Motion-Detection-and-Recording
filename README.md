@@ -2,7 +2,7 @@
 
 **Disclaimer:**
 
-This program is fully functional, but it is still under development. The code will be restructured to be more modular, and comments and variables will be written in English rather than German in future updates. While the program works as intended, please be aware that there may be ongoing improvements and changes.
+This program is fully functional, but it is still under development. The code will be restructured to be more modular in future updates. While the program works as intended, please be aware that there may be ongoing improvements and changes.
 
 ## Description
 
