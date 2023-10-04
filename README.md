@@ -10,7 +10,7 @@ This repository contains a Python program that utilizes [OpenCV](https://github.
 
 ![Motion Detection Example](motion_detection_example.png)
 
-*Example: Moved left hand, right hand stationary. Detected and highlighted motion on the left hand and its shadow on the right forearm*
+*Example: Movement of the left hand with the right hand remaining stationary. Detected and highlighted motion in the left hand.*
 
 ## Features
 
