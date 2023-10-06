@@ -1,3 +1,5 @@
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/arnediehm/Webcam-Motion-Detection-and-Recording/blob/master/LICENSE)
 # Webcam Motion Detection and Recording
 
 **Disclaimer:**
